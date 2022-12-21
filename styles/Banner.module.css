@@ -1,0 +1,505 @@
+
+.BannerBackground{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../public/City\ and\ the\ ground 02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  
+  .cloud4Background{
+    background-image: url('../public/Cloud\ 4.png');
+    width: 30%;
+    height: 160px;
+    background-repeat:no-repeat;
+    padding-top: 80px;
+    animation: cloudFour 9s linear infinite;
+    position: relative;
+    background-position: 10 0;
+    animation-direction: alternate-reverse;
+    margin-right: 390px;
+    /* z-index: 200px; */
+    background-size: contain;
+    margin-top: 80px;
+  }
+  
+  @keyframes cloudFour {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+  
+  .birdCloudBakcground{
+    position: relative;
+  }
+
+  
+
+  .fontContainer{
+    padding-left:100px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+  
+  }
+
+  .Sermon{
+    width: 50px;
+    position: absolute;
+    margin-left: 140px;
+    padding-top: 20px;
+    border-radius: 25px;
+  }
+
+
+
+
+
+.BirdGif{
+  background: transparent;
+  width: 170px;
+  height: 120px;
+  background-repeat:no-repeat;
+  position: absolute;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 200px;
+  margin-top: 50px;
+  padding-top: 45px;
+  padding-right: 60px;
+  z-index: 11;
+}
+
+.bird {
+  background: hsl(257deg 18% 32%);
+  border-radius: 50% 50% 20% 20%;
+  color: white;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  animation: bird-ani 22s linear infinite;
+  z-index: 200px;
+}
+
+.bird::after,
+.bird::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 200px;
+
+}
+
+.bird::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 50px;
+  height: 50px;
+  margin-top: -4px;
+  margin-left: -25px;
+  transform-origin: 100% 0%;
+  animation: wing 22s linear infinite;
+}
+
+.bird::before{
+  background: #FFC37F;
+  border-radius: 100% 0% 20% 0%;
+  margin-top: 1px;
+  margin-left: -1.3px;
+  width: 4px;
+  height: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes wing {
+  50% {
+    transform: rotateX(-1440deg);
+  }
+}
+
+@keyframes bird-ani{
+  40% {
+    transform: rotateZ(2deg) translateX(2px) translateY(10px) translateZ(0);
+  } 
+
+  800% {
+    transform: rotateZ(2-deg) translateX(5px) translateY(8px) translateZ(0);
+  }
+}
+
+
+/* bird 2 */
+
+.bird2::after,
+.bird2::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bird2::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 10px;
+  height: 15px;
+  margin-top: 50px;
+  margin-left: -15.1px;
+  transform-origin: 100% 0%;
+  animation: wing 25s linear infinite;
+}
+
+/* bird 3 */
+
+
+.bird3::after,
+.bird3::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10000px;
+
+}
+
+.bird3::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 10px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
+  transform-origin: 100% 0%;
+  animation: wing 22s linear infinite;
+  z-index: 10000px;
+}
+
+/* bird 4 */
+
+.bird4::after,
+.bird4::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bird4::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 10px;
+  height: 20px;
+  margin-top: 27px;
+  margin-left: -80.1px;
+  transform-origin: 100% 0%;
+  animation: wing 22s linear infinite;
+}
+
+/* bird 5 */
+
+.bird5{
+  background: hsl(257deg 18% 32%);
+  border-radius: 50% 50% 20% 20%;
+  color: white;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  animation: bird-ani 2s linear infinite;
+  margin-left: 60px;
+  margin-bottom: -20px;
+}
+
+.bird5::after,
+.bird5::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bird5::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 20px;
+  height: 20px;
+  margin-top: -3px;
+  margin-left: -11px;
+  transform-origin: 100% 0%;
+  animation: wing 22s linear infinite;
+}
+
+.bird5::before{
+  background: #FFC37F;
+  border-radius: 100% 0% 20% 0%;
+  margin-top: 1px;
+  margin-left: -1px;
+  width: 2px;
+  height: 2px;
+  transform: rotateZ(45deg);
+}
+
+
+/* bird 6 */
+
+
+.bird6{
+  background: hsl(257deg 18% 32%);
+  border-radius: 50% 50% 20% 20%;
+  color: white;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  animation: bird-ani 2s linear infinite;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.bird6::after,
+.bird6::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bird6::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 10px;
+  height: 10px;
+  margin-top: -2px;
+  margin-left: -5px;
+  transform-origin: 100% 0%;
+  animation: wing 22s linear infinite;
+}
+
+.bird6::before{
+  background: #FFC37F;
+  border-radius: 100% 0% 20% 0%;
+  margin-top: 1px;
+  margin-left: -1px;
+  width: 2px;
+  height: 2px;
+  transform: rotateZ(45deg);
+}
+
+
+/* bird 7 */
+
+.bird7{
+  background: hsl(257deg 18% 32%);
+  border-radius: 50% 50% 20% 20%;
+  color: white;
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  animation: bird-ani 2s linear infinite;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+
+.bird7::after,
+.bird7::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bird7::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+  margin-left: -15.1px;
+  transform-origin: 100% 0%;
+  animation: wing 22s linear infinite;
+}
+
+.bird7::before{
+  background: #FFC37F;
+  border-radius: 100% 0% 20% 0%;
+  margin-top: 1px;
+  margin-left: -1px;
+  width: 2px;
+  height: 2px;
+  transform: rotateZ(45deg);
+}
+
+
+/* bird 8 */
+
+.bird8{
+  background: hsl(257deg 18% 32%);
+  border-radius: 50% 50% 20% 20%;
+  color: white;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  animation: bird-ani 2s linear infinite;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.bird8::after,
+.bird8::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bird8::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 8px;
+  height: 18px;
+  margin-top: -1px;
+  margin-left: -4px;
+  transform-origin: 100% 0%;
+  animation: wing 20s linear infinite;
+}
+
+.bird8::before{
+  background: #FFC37F;
+  border-radius: 100% 0% 20% 0%;
+  margin-top: 1px;
+  margin-left: -1px;
+  width: 2px;
+  height: 2px;
+  transform: rotateZ(45deg);
+}
+
+
+
+/* bird 9 */
+
+.bird9{
+  background: hsl(257deg 18% 32%);
+  border-radius: 50% 50% 20% 20%;
+  color: white;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  animation: bird-ani 2s linear infinite;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.bird9::after,
+.bird9::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bird9::after{
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px hsl(257deg 18% 32%);
+  width: 8px;
+  height: 18px;
+  margin-top: -1px;
+  margin-left: -4px;
+  transform-origin: 100% 0%;
+  animation: wing 22s linear infinite;
+}
+
+.bird9::before{
+  background: #FFC37F;
+  border-radius: 100% 0% 20% 0%;
+  margin-top: 1px;
+  margin-left: -1px;
+  width: 2px;
+  height: 2px;
+  transform: rotateZ(45deg);
+}
+
+.contactUsCloud1{
+  background-image: url('../public/contactUsCloud1.png');
+  width: 20%;
+  height: 110px;
+  background-repeat:no-repeat;
+  animation: cloudContact1 12s linear infinite;
+  position: relative;
+  background-position: 10 0;
+  animation-direction: alternate-reverse;
+  margin-right: 300px;
+  z-index: 200px;
+  background-size: contain;
+  margin-top: 80px;
+}
+
+@keyframes cloudContact1 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.contactUsCloud2{
+  background-image: url('../public/contactUsCloud2.png');
+  width: 20%;
+  height: 110px;
+  background-repeat:no-repeat;
+  animation: cloudContact1 13s linear infinite;
+  position: relative;
+  background-position: 10 0;
+  animation-direction: alternate-reverse;
+  margin-right: 200px;
+  z-index: 200px;
+  background-size: contain;
+  margin-top: 80px;
+}
+
+@keyframes cloudContact2 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.BannerDrawer1{
+  background-image:url('../public/Ellipse27.png');
+  width:270px;
+  height: 500px;
+  background-repeat:no-repeat;
+  background-size: 60px;
+  position: relative;
+}
+
+
+
+.DrawerCircle{
+  position: absolute;
+  background: transparent;
+  width: 270px;
+  height: 500px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle1{
+  margin-top: 195px;
+  padding-left: 235px;
+}
+
+.circle2{
+  margin-top: 150px;
+  padding-left: 60px;
+}

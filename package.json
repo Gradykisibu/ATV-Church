@@ -1,0 +1,32 @@
+{
+  "name": "active-church-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.12",
+    "aos": "^2.3.4",
+    "axios": "^1.1.3",
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.0.3",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "next": "13.0.2",
+    "nodemailer": "^6.8.0",
+    "notistack": "^2.0.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.3.5",
+    "react-html5video": "^2.5.1",
+    "react-player": "^2.11.0",
+    "react-video-js-player": "^1.1.1"
+  }
+}

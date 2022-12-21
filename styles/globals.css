@@ -1,0 +1,151 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "bauhaus-93";
+  src: local("bauhaus-93"), url(../fonts/Bauhaus\ 93\ Regular.ttf);
+}
+@font-face {
+  font-family: baumans;
+  src: url(../fonts/Baumans-Regular.ttf);
+}
+.displayText {
+  font-family: bauhaus-93;
+
+}
+.typeText {
+  font-family: baumans;
+  font-weight: 800;
+  font-weight: bold ;
+  text-decoration: none;
+}
+
+.aboutus{
+  text-align: center;
+  width: 100%;
+  height:1000px;
+  background-image:url('/City.png');
+  background-size:cover;
+  color: white;
+  background-repeat: no-repeat;
+  font-size: large;
+  font-family: baumans;
+}
+
+.paper{
+  background-color: white;
+}
+
+.link{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+
+.header-bg {
+  background: #e1eef5;
+  box-shadow: 1px 10px 12px 0px rgba(0,0,0,0.18);
+}
+
+.Nav-bg {
+  transition: 0.5s ease-in;
+  display: block;
+  display: flex;
+  margin-left: 90px;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  font-family: baumans;
+  color:  rgba(103, 107, 138, 255);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+
+.drawerNav-bg {
+  transition: 0.5s ease-in;
+  display:none;
+}
+
+.MoreInfoBg {
+  background-image: url(../public/City\ AboutUs.jpg);
+  width: 1000px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* About us pink flowers */
+.container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+  top: 57px;
+  /* border: 1px solid red; */
+
+}
+
+.tree {
+ transform-origin: bottom center;
+  animation: treeAnim 20s infinite; 
+}
+
+@keyframes treeAnim {
+  0% {
+    transform: skew(0);
+  }
+  20% {
+    transform: skew(-8deg);
+  }
+  40% {
+    transform: skew(10deg);
+  }
+  60% {
+    transform: skew(-12deg);
+  }
+  80% {
+    transform: skew(14deg);
+  }
+  100% {
+    transform: skew(0);
+  }
+}
+
+
+.tree2 {
+ transform-origin: top center;
+  animation: treeAnime 10s infinite; 
+}
+
+@keyframes treeAnime {
+  0% {
+    transform: skew(6deg);
+  }
+  20% {
+    transform: skew(6deg);
+  }
+  40% {
+    transform: skew(8deg);
+  }
+  60% {
+    transform: skew(10deg);
+  }
+  80% {
+    transform: skew(12deg);
+  }
+  100% {
+    transform: skew(6deg);
+  }
+}
