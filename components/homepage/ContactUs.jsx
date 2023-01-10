@@ -5,6 +5,7 @@ import { useState } from "react";
 import Modal from "@mui/material/Modal";
 import style from "../../styles/Banner.module.css";
 import Image from 'next/image'
+const displayText = "bauhaus-93";
 
 
 const ContactUs = () => {
@@ -148,10 +149,11 @@ const ContactUs = () => {
           C
         </Typography>
         <Typography
-          sx={{ color: "#42475B" }}
+          // sx={{ color: "#42475B" }}
           className="displayText "
           variant={"h2"}
           fontSize={40}
+          sx={box2header}
         >
           ontact Us
         </Typography>
@@ -367,4 +369,13 @@ const cloudContainer = {
   marginBottom:"30px",
   justifyContent:"space-evenly",
   marginTop:"-60px"
+}
+
+const box2header = {
+  display: "flex",
+  padding: "8px 0px",
+  color: "white",
+  alignItems: "center",
+  fontFamily: displayText,
+  fontSize: "38px",
 }
