@@ -141,10 +141,11 @@ const ContactUs = () => {
         justifyContent="center"
       >
         <Typography
-          sx={{ color: "#FF00FF" }}
           className="displayText viewText"
           variant={"h2"}
           fontSize={40}
+          sx={box1header}
+
         >
           C
         </Typography>
@@ -378,4 +379,12 @@ const box2header = {
   alignItems: "center",
   fontFamily: displayText,
   fontSize: "38px",
+}
+
+const box1header = {
+  display: "flex",
+  padding: "8px 0px",
+  color: "#FF00FF",
+  alignItems: "center",
+  fontFamily: displayText,
 }
