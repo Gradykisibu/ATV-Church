@@ -105,22 +105,23 @@ export default function Drawer() {
                 className={styles.BannerDrawer1}
               >
                 <Box className={styles.DrawerCircle}>
-                  <label for="" className={styles.circle1}>
+                  <Box for="" className={styles.circle1}>
                     <Image
                       src="/Ellipse28.png"
                       alt="drawerCirlce"
                       width={35}
                       height={70}
                     />
-                  </label>
-                  <label for="" className={styles.circle2}>
+                  </Box>
+
+                  <Box for="" className={styles.circle2}>
                     <Image
                       src="/Ellipse29.png"
                       alt="drawerCircle"
                       width={50}
                       height={50}
                     />
-                  </label>
+                  </Box>
                 </Box>
                 <Box>
                   <ClickAwayListener onClickAway={handleClose}>
@@ -139,60 +140,60 @@ export default function Drawer() {
                     >
                       <MenuItem className="typeText" sx={{ fontSize: "18px" }}>
                         <Link href="/" style={{ color: "#42475B", textDecoration:"none"}}>
-                          <p>
+                          {/* <p> */}
                             {"The Active church"}
-                          </p>
+                          {/* </p> */}
                         </Link>
                       </MenuItem>
                       <MenuItem className="typeText" sx={{ fontSize: "18px" }}>
                         <Link href="/sermons" style={{ color: "#42475B", textDecoration:"none"}}>
-                        <p>
+                        {/* <p> */}
                         {"Sermon"}
-                        </p>
+                        {/* </p> */}
                         </Link>
                       </MenuItem>
                       <MenuItem className="typeText" sx={{ fontSize: "18px" }}>
                       <Link href="/" style={{ color: "#42475B", textDecoration:"none"}}>
-                        <p>
+                        {/* <p> */}
                        {" Children's church"}
-                        </p>
+                        {/* </p> */}
                       </Link>
                       </MenuItem>
                       <MenuItem className="typeText" sx={{ fontSize: "18px" }}>
                       <Link href="/" style={{ color: "#42475B", textDecoration:"none"}}>
-                        <p>
+                        {/* <p> */}
                         {"Active Worship"}
-                        </p>
+                        {/* </p> */}
                       </Link>
                       </MenuItem>
                       <MenuItem className="typeText" sx={{ fontSize: "18px" }}>
                         <Link href="/" style={{ color: "#42475B", textDecoration:"none"}}>
-                        <p>
+                        {/* <p> */}
                         {"Active Foundation"}
-                        </p>
+                        {/* </p> */}
                         </Link>
                       </MenuItem>
                       <MenuItem className="typeText" sx={{ fontSize: "18px" }}>
                       <Link href="/" style={{ color: "#42475B", textDecoration:"none"}}>
-                        <p>
+                        {/* <p> */}
                         {"Events"}
-                        </p>
+                        {/* </p> */}
                         </Link>
                       </MenuItem>
                       
                       <MenuItem className="typeText" sx={{ fontSize: "18px" }}>
                       <Link href="/MoreInfo" style={{ color: "#42475B", textDecoration:"none"}}>
-                        <p>
-                       {" About Us"}
-                        </p>
+                        {/* <p> */}
+                         About Us
+                        {/* </p> */}
                         </Link>
                       </MenuItem>
 
                       <MenuItem className="typeText" sx={{ fontSize: "18px" }}>
                       <Link href="/" style={{ color: "#42475B", textDecoration:"none"}}>
-                        <p>
+                        {/* <p> */}
                         {"Contact Page"}
-                        </p>
+                        {/* </p> */}
                         </Link>
                       </MenuItem>
 
