@@ -87,7 +87,7 @@ function MoreInfo() {
       {/* Meet our pastors */}
       <Box sx={Pastors}>
         <Box sx={pastorsBox}>
-          <img src="/Pastors.png" alt="" width="700px" height="700px"/>
+          <img src="/Pastors.png" alt="" width="701px" height="700px"/>
         </Box>
 
         <Box sx={pastorsBox}>
