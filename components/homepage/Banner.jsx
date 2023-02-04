@@ -67,16 +67,16 @@ export default function Banner() {
                   className={style.fontContainer}
                   sx={{ display: { xs: "none", sm: "block", md: "bloack" } }}
                 >
-                  <Typography
+                  <Box
                     className="displayText"
                     sx={Text}
                     data-text="A CITY"
                   >
                     A City
-                  </Typography>
-                  <Typography className="displayText" sx={Text2}>
+                  </Box>
+                  <Box className="displayText" sx={Text2}>
                     on a hill
-                  </Typography>
+                  </Box>
                   <Typography style={Text3}>
                     A Church of the Lord of Jesus Christ, The Salt
                     <span>of the Earth. We build the Community</span>
