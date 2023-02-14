@@ -81,5 +81,4 @@ const navbar = {
     width:"100%",
     height:"80px",
     zIndex : '200',
-    // transition:".3s ease-in"
 }
