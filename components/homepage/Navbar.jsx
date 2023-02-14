@@ -51,7 +51,7 @@ useEffect(() => {
         </Link>
 
 
-        <Box style={{display:"flex"}} className={color ? 'Nav Nav-bg' : 'Navbar'}>
+        <Box style={{display:"flex",alignItems:"center", justifyContent:"center"}} className={color ? 'Nav Nav-bg' : 'Navbar'}>
           <Link href="/" style={{textDecoration:"none"}}><p>Home</p></Link>
           <Link href="/" style={{textDecoration:"none"}}><p>Events</p></Link>
           <Link href="/" style={{textDecoration:"none"}}><p>About us</p></Link>
