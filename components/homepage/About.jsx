@@ -111,7 +111,7 @@ function About() {
         </Box>
         
         <Box sx={{width:"100%", display:"flex", alignItems:"center", justifyContent:"space-between", paddingLeft:"110px"}}>
-          <Image src="/Flowers.png" alt="flower image" width={150} height={150} style={{marginTop:"14%",}} className="tree"/>
+          <Image src="/Flowers.png" alt="flower image" width={150} height={150} style={{marginTop:"12.5%",}} className="tree"/>
           <Image src="/Tree 2.png" alt="flower image" width={25} height={200}  style={{marginRight:"14%",}}/>
         </Box>
       </Box>

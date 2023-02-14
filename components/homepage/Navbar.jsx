@@ -76,7 +76,7 @@ const navbar = {
     cursor:"pointer",
     paddingTop:"15px",
     paddingLeft:"105px",
-    background:"transparent",
+    // background:"transparent",
     position:"fixed",
     width:"100%",
     height:"80px",
