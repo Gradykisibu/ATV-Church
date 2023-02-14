@@ -27,8 +27,6 @@ useEffect(() => {
   window.addEventListener('scroll', changeColor);
 },[])
 
-
-
 //Navbar links should appear when onScroll//
 
 const Navigation = () => {
@@ -51,15 +49,13 @@ useEffect(() => {
         </Link>
 
 
-        <Box sx={navbar} className={color ? 'Nav Nav-bg' : 'Navbar'}>
+        <Box sx={navText} className={color ? 'Nav Nav-bg' : 'Navbar'}>
           <Link href="/" style={{textDecoration:"none"}}><p>Home</p></Link>
           <Link href="/" style={{textDecoration:"none"}}><p>Events</p></Link>
           <Link href="/" style={{textDecoration:"none"}}><p>About us</p></Link>
           <Link href="/" style={{textDecoration:"none"}}><p>Contact us</p></Link>
         </Box>
         </Box>
-s
-
         <Box sx={{marginRight:"73px"}}>
         <Drawer/>
         </Box>
@@ -81,4 +77,8 @@ const navbar = {
     width:"100%",
     height:"80px",
     zIndex : '200',
+}
+
+const navText = {
+  display:"none",
 }
