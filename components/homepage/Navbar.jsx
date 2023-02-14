@@ -51,14 +51,14 @@ useEffect(() => {
         </Link>
 
 
-        <Box style={{display:"none"}} className={color ? 'Nav Nav-bg' : 'Navbar'}>
+        <Box sx={navbar} className={color ? 'Nav Nav-bg' : 'Navbar'}>
           <Link href="/" style={{textDecoration:"none"}}><p>Home</p></Link>
           <Link href="/" style={{textDecoration:"none"}}><p>Events</p></Link>
           <Link href="/" style={{textDecoration:"none"}}><p>About us</p></Link>
           <Link href="/" style={{textDecoration:"none"}}><p>Contact us</p></Link>
         </Box>
         </Box>
-
+s
 
         <Box sx={{marginRight:"73px"}}>
         <Drawer/>
